@@ -1,0 +1,45 @@
+; Tue Nov 17 15:10:05 CET 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Autores] of  %3ASTANDARD-CLASS
+
+	(%3ASLOT-CONSTRAINTS [KB_915978_Class20]))
+
+([KB_915978_Class20] of  %3APAL-CONSTRAINT
+)
+
+([SegonaPracticaIA_Class0] of  Autores
+
+	(Lenguaje Dificil)
+	(Nacionalidad "EEUU")
+	(Nom "Dan Brown")
+	(Popular TRUE)
+	(Tamano Largo)
+	(Trama Compleja))
+
+([SegonaPracticaIA_Class1] of  Genero
+
+	(EdadRecomendada Adultos)
+	(MomentoLectura Noche)
+	(Nom "Misterio")
+	(SexoGen Hombre Mujer))
+
+([SegonaPracticaIA_Class10002] of  Libro
+
+	(Nom "El codigo Da Vinci")
+	(NumVentas 80000000))
+
+([SegonaPracticaIA_Class10003] of  Persona
+
+	(BestSellers TRUE)
+	(Edad 30)
+	(Extranjeros TRUE)
+	(Frecuencia FinDeSemana)
+	(Lugar Cama)
+	(Momento Noche)
+	(Nacionalidad "Espana")
+	(Nom "Guillem")
+	(Sexo Hombre)
+	(TiempoLibre 6.0))

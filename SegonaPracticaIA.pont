@@ -1,0 +1,267 @@
+; Tue Nov 17 15:10:05 CET 2015
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot BestSellers
+;+		(comment "Le gusta leer libros populares")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Frecuencia
+		(type SYMBOL)
+		(allowed-values Diario FinDeSemana Vacaciones Ocasionalmente)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nacionalidad
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NumVentas
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot SexoGen
+		(type SYMBOL)
+		(allowed-values Hombre Mujer)
+		(cardinality 1 2)
+		(create-accessor read-write))
+	(multislot Momento
+		(type SYMBOL)
+		(allowed-values Manana Tarde Noche)
+		(create-accessor read-write))
+	(multislot MomentoLectura
+;+		(comment "Momento recomendado para leer")
+		(type SYMBOL)
+		(allowed-values Ma%C3%B1ana Tarde Noche)
+		(create-accessor read-write))
+	(single-slot Sexo
+		(type SYMBOL)
+		(allowed-values Hombre Mujer)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot SegonaPracticaIA_Class2
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot EdadRecomendada
+;+		(comment "niños(0-12)\nadolescentes(12-20)\njovenes(20-30)\nadultos(30-60)\nedadavanzada(+60)")
+		(type SYMBOL)
+		(allowed-values Ninos Adolescente Jovenes Adultos EdadAvanzada)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot Critico
+;+		(comment "Si true, las criticas influyen en su decision de leer un libro.")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Lenguaje
+;+		(comment "Comprension del lenguaje del autor")
+		(type SYMBOL)
+		(allowed-values Facil Dificil)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot TiempoLibre
+;+		(comment "Horas por Semana")
+		(type FLOAT)
+		(range 0.0 168.0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Moda
+;+		(comment "True si le gustan los generos que estan de moda")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Trama
+		(type SYMBOL)
+		(allowed-values Facil Compleja)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Nom
+;+		(comment "Nom de la instància")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot RangoEdad
+		(type INTEGER)
+		(cardinality 2 2)
+		(create-accessor read-write))
+	(multislot Lugar
+		(type SYMBOL)
+		(allowed-values TransportePublico Cama Casa)
+		(create-accessor read-write))
+	(single-slot Popular
+;+		(comment "Si es un autor popular actualmente")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Edad
+		(type INTEGER)
+		(range 0 99)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Tamano
+;+		(comment "Tamano de los libros aproximadamente")
+		(type SYMBOL)
+		(allowed-values Corto Largo)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Name
+;+		(comment "Nom del llibre")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Extranjeros
+;+		(comment "True si lee autores de fuera")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Persona "Esta clase representará las características de un lector."
+	(is-a USER)
+	(role concrete)
+	(multislot Momento
+		(type SYMBOL)
+		(allowed-values Manana Tarde Noche)
+		(create-accessor read-write))
+	(single-slot Critico
+;+		(comment "Si true, las criticas influyen en su decision de leer un libro.")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BestSellers
+;+		(comment "Le gusta leer libros populares")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Frecuencia
+		(type SYMBOL)
+		(allowed-values Diario FinDeSemana Vacaciones Ocasionalmente)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot TiempoLibre
+;+		(comment "Horas por Semana")
+		(type FLOAT)
+		(range 0.0 168.0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Edad
+		(type INTEGER)
+		(range 0 99)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Moda
+;+		(comment "True si le gustan los generos que estan de moda")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nacionalidad
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sexo
+		(type SYMBOL)
+		(allowed-values Hombre Mujer)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Extranjeros
+;+		(comment "True si lee autores de fuera")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nom
+;+		(comment "Nom de la instància")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Lugar
+		(type SYMBOL)
+		(allowed-values TransportePublico Cama Casa)
+		(create-accessor read-write)))
+
+(defclass Genero
+	(is-a USER)
+	(role concrete)
+	(multislot MomentoLectura
+;+		(comment "Momento recomendado para leer")
+		(type SYMBOL)
+		(allowed-values Ma%C3%B1ana Tarde Noche)
+		(create-accessor read-write))
+	(single-slot Nom
+;+		(comment "Nom de la instància")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot EdadRecomendada
+;+		(comment "niños(0-12)\nadolescentes(12-20)\njovenes(20-30)\nadultos(30-60)\nedadavanzada(+60)")
+		(type SYMBOL)
+		(allowed-values Ninos Adolescente Jovenes Adultos EdadAvanzada)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot SexoGen
+		(type SYMBOL)
+		(allowed-values Hombre Mujer)
+		(cardinality 1 2)
+		(create-accessor read-write)))
+
+(defclass Autores
+	(is-a USER)
+	(role concrete)
+	(single-slot Nacionalidad
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Trama
+		(type SYMBOL)
+		(allowed-values Facil Compleja)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Lenguaje
+;+		(comment "Comprension del lenguaje del autor")
+		(type SYMBOL)
+		(allowed-values Facil Dificil)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Nom
+;+		(comment "Nom de la instància")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Tamano
+;+		(comment "Tamano de los libros aproximadamente")
+		(type SYMBOL)
+		(allowed-values Corto Largo)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Popular
+;+		(comment "Si es un autor popular actualmente")
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Libro
+	(is-a USER)
+	(role concrete)
+	(single-slot Nom
+;+		(comment "Nom de la instància")
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NumVentas
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
