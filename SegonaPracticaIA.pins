@@ -1,9 +1,9 @@
-; Fri Nov 20 14:18:46 CET 2015
+; Sun Nov 22 12:44:30 CET 2015
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
 
-([SegonaPracticaIA_Class0] of  Autores
+([SegonaPracticaIA_Class0] of  Autor
 
 	(haEscrito "El codigo Da Vinci")
 	(Lenguaje Dificil)
@@ -25,7 +25,7 @@
 	(Nom "El codigo Da Vinci")
 	(NumVentas 80000000))
 
-([SegonaPracticaIA_Class10003] of  Persona
+([SegonaPracticaIA_Class10003] of  Lector
 
 	(BestSellers TRUE)
 	(Edad 30)

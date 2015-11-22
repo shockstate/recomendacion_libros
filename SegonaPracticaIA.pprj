@@ -1,4 +1,4 @@
-; Fri Nov 20 14:18:31 CET 2015
+; Sun Nov 22 12:44:30 CET 2015
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -20,13 +20,13 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[SegonaPracticaIA_ProjectKB_Class99]
-		[SegonaPracticaIA_ProjectKB_Class100]
-		[SegonaPracticaIA_ProjectKB_Class101]
-		[SegonaPracticaIA_ProjectKB_Class102]
-		[SegonaPracticaIA_ProjectKB_Class103]
-		[SegonaPracticaIA_ProjectKB_Class104]
-		[SegonaPracticaIA_ProjectKB_Class105]))
+		[SegonaPracticaIA_ProjectKB_Class10184]
+		[SegonaPracticaIA_ProjectKB_Class10185]
+		[SegonaPracticaIA_ProjectKB_Class10186]
+		[SegonaPracticaIA_ProjectKB_Class10187]
+		[SegonaPracticaIA_ProjectKB_Class10188]
+		[SegonaPracticaIA_ProjectKB_Class10189]
+		[SegonaPracticaIA_ProjectKB_Class10190]))
 
 ([CLSES_TAB] of  Widget
 
@@ -183,7 +183,7 @@
 
 	(name "layout properties"))
 
-([KB_816894_Class0] of  Map
+([KB_653196_Class0] of  Map
 )
 
 ([LAYOUT_PROPERTIES] of  Property_List
@@ -274,10 +274,10 @@
 	(browser_slot_names [BROWSER_SLOT_NAMES])
 	(customized_instance_widgets
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
-		[STANDARD_CLASS_FORM_WIDGET]
-		[STANDARD_SLOT_FORM_WIDGET]
 		[STANDARD_FACET_FORM_WIDGET]
-		[PAL_FORM_WIDGET])
+		[STANDARD_SLOT_FORM_WIDGET]
+		[PAL_FORM_WIDGET]
+		[STANDARD_CLASS_FORM_WIDGET])
 	(default_cls_metaclass ":STANDARD-CLASS")
 	(default_facet_metaclass ":STANDARD-FACET")
 	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
@@ -302,39 +302,305 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class2])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
+	(widget_class_name "se.liu.ida.JessTab.JessTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class10] of  Property_List
 )
 
-([SegonaPracticaIA_ProjectKB_Class100] of  String
+([SegonaPracticaIA_ProjectKB_Class10102] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10103])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 200)
+	(x 400)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10103] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10104] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10105])
+	(widget_class_name "edu.stanford.smi.protege.widget.BooleanListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([SegonaPracticaIA_ProjectKB_Class10105] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10106] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10107])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([SegonaPracticaIA_ProjectKB_Class10107] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10108] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10109])
+	(widget_class_name "edu.stanford.smi.protege.widget.FloatListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([SegonaPracticaIA_ProjectKB_Class10109] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10110] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10111])
+	(widget_class_name "edu.stanford.smi.protege.widget.SymbolListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([SegonaPracticaIA_ProjectKB_Class10111] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10112] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "HaLeido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10113])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([SegonaPracticaIA_ProjectKB_Class10113] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10125] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "EscritoPor")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10126])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10126] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10127] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "EscritoPor")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10128])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10128] of  Property_List
+
+	(properties
+		[SegonaPracticaIA_ProjectKB_Class10129]
+		[SegonaPracticaIA_ProjectKB_Class10130]))
+
+([SegonaPracticaIA_ProjectKB_Class10129] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([SegonaPracticaIA_ProjectKB_Class10130] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([SegonaPracticaIA_ProjectKB_Class10131] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "EscritoPor")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10132])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10132] of  Property_List
+
+	(properties
+		[SegonaPracticaIA_ProjectKB_Class10133]
+		[SegonaPracticaIA_ProjectKB_Class10134]))
+
+([SegonaPracticaIA_ProjectKB_Class10133] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([SegonaPracticaIA_ProjectKB_Class10134] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([SegonaPracticaIA_ProjectKB_Class10135] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "EscritoPor")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10136])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10136] of  Property_List
+
+	(properties
+		[SegonaPracticaIA_ProjectKB_Class10137]
+		[SegonaPracticaIA_ProjectKB_Class10138]))
+
+([SegonaPracticaIA_ProjectKB_Class10137] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([SegonaPracticaIA_ProjectKB_Class10138] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([SegonaPracticaIA_ProjectKB_Class10139] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "EscritoPor")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10140])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([SegonaPracticaIA_ProjectKB_Class10140] of  Property_List
+
+	(properties
+		[SegonaPracticaIA_ProjectKB_Class10141]
+		[SegonaPracticaIA_ProjectKB_Class10142]))
+
+([SegonaPracticaIA_ProjectKB_Class10141] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([SegonaPracticaIA_ProjectKB_Class10142] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([SegonaPracticaIA_ProjectKB_Class10147] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "DeGenero")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10148])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([SegonaPracticaIA_ProjectKB_Class10148] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10153] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "GenerosPreferido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10154])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 420))
+
+([SegonaPracticaIA_ProjectKB_Class10154] of  Property_List
+)
+
+([SegonaPracticaIA_ProjectKB_Class10155] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "GenerosPreferido")
+	(property_list [SegonaPracticaIA_ProjectKB_Class10156])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 420))
+
+([SegonaPracticaIA_ProjectKB_Class10156] of  Property_List
+
+	(properties
+		[SegonaPracticaIA_ProjectKB_Class10157]
+		[SegonaPracticaIA_ProjectKB_Class10158]))
+
+([SegonaPracticaIA_ProjectKB_Class10157] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([SegonaPracticaIA_ProjectKB_Class10158] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([SegonaPracticaIA_ProjectKB_Class10184] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([SegonaPracticaIA_ProjectKB_Class10185] of  String
+
+	(name "Autor")
+	(string_value "Nom"))
+
+([SegonaPracticaIA_ProjectKB_Class10186] of  String
 
 	(name "Genero")
 	(string_value "Nom"))
 
-([SegonaPracticaIA_ProjectKB_Class101] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([SegonaPracticaIA_ProjectKB_Class102] of  String
-
-	(name "Autores")
-	(string_value "Nom"))
-
-([SegonaPracticaIA_ProjectKB_Class103] of  String
+([SegonaPracticaIA_ProjectKB_Class10187] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
 
-([SegonaPracticaIA_ProjectKB_Class104] of  String
+([SegonaPracticaIA_ProjectKB_Class10188] of  String
 
-	(name "Libro")
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([SegonaPracticaIA_ProjectKB_Class10189] of  String
+
+	(name "Lector")
 	(string_value "Nom"))
 
-([SegonaPracticaIA_ProjectKB_Class105] of  String
+([SegonaPracticaIA_ProjectKB_Class10190] of  String
 
-	(name "Persona")
+	(name "Libro")
 	(string_value "Nom"))
 
 ([SegonaPracticaIA_ProjectKB_Class106] of  String
@@ -345,7 +611,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class12])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
+	(widget_class_name "ezpal.EZPalTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class12] of  Property_List
 )
@@ -363,7 +629,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class16])
-	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
+	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class16] of  Property_List
 )
@@ -372,7 +638,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class18])
-	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class18] of  Property_List
 )
@@ -381,7 +647,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class20])
-	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class2] of  Property_List
 )
@@ -393,7 +659,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class22])
-	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
+	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class22] of  Property_List
 )
@@ -402,7 +668,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class24])
-	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class24] of  Property_List
 )
@@ -411,7 +677,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class26])
-	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
+	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
 
 ([SegonaPracticaIA_ProjectKB_Class26] of  Property_List
 )
@@ -420,7 +686,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class28])
-	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class28] of  Property_List
 )
@@ -429,13 +695,13 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class30])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
 
 ([SegonaPracticaIA_ProjectKB_Class3] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class4])
-	(widget_class_name "org.protege.owl.mm.portability.protege3.MappingMasterTab"))
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class30] of  Property_List
 )
@@ -444,7 +710,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class32])
-	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class32] of  Property_List
 )
@@ -462,7 +728,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class36])
-	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
+	(widget_class_name "org.protege.owl.mm.portability.protege3.MappingMasterTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class36] of  Property_List
 )
@@ -471,7 +737,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class38])
-	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
+	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class38] of  Property_List
 )
@@ -480,7 +746,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class40])
-	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
+	(widget_class_name "TGViztab.TGVizTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class4] of  Property_List
 )
@@ -492,7 +758,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class42])
-	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
+	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class42] of  Property_List
 )
@@ -501,7 +767,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class44])
-	(widget_class_name "TGViztab.TGVizTab"))
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class44] of  Property_List
 )
@@ -510,7 +776,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class46])
-	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class46] of  Property_List
 )
@@ -519,7 +785,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class48])
-	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class48] of  Property_List
 )
@@ -528,13 +794,13 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class50])
-	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
+	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class5] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class6])
-	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class50] of  Property_List
 )
@@ -543,7 +809,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class52])
-	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class52] of  Property_List
 )
@@ -552,7 +818,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class54])
-	(widget_class_name "se.liu.ida.JessTab.JessTab"))
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
 
 ([SegonaPracticaIA_ProjectKB_Class54] of  Property_List
 )
@@ -561,7 +827,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class56])
-	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class56] of  Property_List
 )
@@ -570,7 +836,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class58])
-	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
+	(widget_class_name "script.ProtegeScriptTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class58] of  Property_List
 )
@@ -579,7 +845,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class60])
-	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class6] of  Property_List
 )
@@ -591,7 +857,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class62])
-	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class62] of  Property_List
 )
@@ -600,7 +866,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class64])
-	(widget_class_name "script.ProtegeScriptTab"))
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class64] of  Property_List
 )
@@ -609,7 +875,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class66])
-	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class66] of  Property_List
 )
@@ -618,7 +884,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class68])
-	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
+	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class68] of  Property_List
 )
@@ -627,13 +893,13 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class70])
-	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class7] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class8])
-	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class70] of  Property_List
 )
@@ -642,7 +908,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class72])
-	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
+	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class72] of  Property_List
 )
@@ -651,7 +917,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class74])
-	(widget_class_name "ezpal.EZPalTab"))
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
 
 ([SegonaPracticaIA_ProjectKB_Class74] of  Property_List
 )
@@ -663,12 +929,7 @@
 
 	(is_hidden TRUE)
 	(property_list [SegonaPracticaIA_ProjectKB_Class10])
-	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
-
-([SegonaPracticaIA_ProjectKB_Class99] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
+	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
 
 ([SLOTS_TAB] of  Widget
 
