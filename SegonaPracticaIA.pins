@@ -1,10 +1,11 @@
-; Tue Nov 17 15:10:05 CET 2015
+; Fri Nov 20 14:18:46 CET 2015
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
 
 ([SegonaPracticaIA_Class0] of  Autores
 
+	(haEscrito "El codigo Da Vinci")
 	(Lenguaje Dificil)
 	(Nacionalidad "EEUU")
 	(Nom "Dan Brown")
